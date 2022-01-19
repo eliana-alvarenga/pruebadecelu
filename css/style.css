@@ -1,0 +1,1245 @@
+*{
+    border: 0PX;
+    outline: 0;
+    margin: 0px;
+    padding: 0px;
+}
+.marcas{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 18px;
+
+}
+.kylie{
+    width: 25%;
+    font-size: 20px;
+    height: 100%;
+    padding: 2.5px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+}
+.kylie:hover{
+    animation: myAnim 1s ease 0s 1 normal forwards;
+    cursor: pointer;
+}
+.kyliecosmetics{
+    width: 25%;
+    height: 100%;
+    padding: 2.5px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    align-items: center; 
+}
+.kyliecosmetics:hover{
+    animation: myAnim 1s ease 0s 1 normal forwards;
+    cursor: pointer;
+}
+.kylieskin{
+    width: 25%;
+    padding: 2.5px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8C3D1;
+    color: white;
+}
+.kylieskin:hover{
+    animation: myAnim 1s ease 0s 1 normal forwards;
+    cursor: pointer;
+}
+.kyliebaby{
+    width: 25%;
+    padding: 2.5px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BBCBE3;
+    color: white;
+}
+.kyliebaby:hover{
+    animation: myAnim 1s ease 0s 1 normal forwards;
+    cursor: pointer;
+}
+.fixed{
+    width: 100%;
+    position: fixed;
+}
+.encabezado{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-bottom: double 4px gray;
+}
+.logo{
+    width: 15%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 144.83px;
+    height: 80px;
+}
+.menudenav{
+  width: 60%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  padding-left: 10px;
+  font-size: 17px;
+}
+.menudenav ul{
+    width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.menudenav ul li{
+    display: flex;
+    font-family:sans-serif;
+}
+.menu{
+    display:none ;
+}
+.buscador{
+    margin-top: 40px;
+    margin-left: 90px;
+    width: 15%;
+    height: 35px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid gray;
+    
+} 
+.buscador img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.buscador p {
+    width: 80%;
+    margin-top: 2px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 13px;
+    color: gray;
+}
+
+.imagenes{
+    width: 100%;
+} 
+.imagenes img{
+    margin-top: 140px;
+    width: 100%;
+    height: 640px;
+}
+.imagen2{
+    margin-top: -10px;
+    width: 100%;
+    background-image: url(/imagen2.png);
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.titulo{
+    margin-right: 250px;
+}
+.titulo p{
+    font-size: 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.letra p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.boton button{
+    margin-left: 100px;
+    margin-top: 40px;
+    padding: 8px;
+    padding-left: 40px;
+    padding-right:40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: transparent;
+    font-size: 25px;
+    border: 2px solid black;
+}
+.boton button:hover{
+    color: rgb(56, 54, 54);
+    border: 2px solid rgb(51, 48, 48);
+}
+.imagen3{
+    background-image: url(/imagen3.png);
+    background-size: cover;
+    height: 600px;
+    margin-top: -10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;    
+}
+.botoncitos{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.number1{
+    background-color:rgb(231, 227, 220) ;
+    width:40%;
+    height: 8px;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+.number1:hover{
+    cursor: pointer;
+    background-color:rgb(66, 63, 63);
+}
+.number2{
+    background-color:rgb(231, 227, 220);
+    width:40%;
+    height: 8px;
+    border-radius: 50px;
+}
+.number2:hover{
+    cursor: pointer;
+    background-color:rgb(66, 63, 63);
+}
+.palabras{
+    width: 40%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+.container2{
+    width: 93%;
+    margin: 40px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+    width: 23%;
+    height: 550px;
+    border: 1px solid #ccc;
+    margin-left: 70px;
+}
+.box1 img{
+    width: 100%;
+    height: 350px;
+}
+.box1 img:hover{
+    cursor: pointer;
+    animation: myAnim 1s ease 0s 1 normal forwards;  
+}
+.letrabox1{
+    margin: 5px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.letrapeque{
+    width: 100%;
+    font-size: 15px;
+    margin: 5px;
+    color: gray;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.carrito button{
+    background-color: transparent;
+    padding: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border: 2px solid gray;
+    color: rgb(68, 68, 68);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+.carrito button:hover{
+    animation: myAnim 0.1s ease 0s 0.1 normal forwards;
+    cursor: pointer;
+}
+.piel{
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-top: 70px;
+}
+.cajadevegano{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.vegano{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    
+}
+.vegano img{
+    border: 4px solid #E8C3D1;
+    border-radius: 100%;
+}
+.vegano p{
+    margin-top: 20px;
+    margin-left: -15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+.vegano p:hover{
+   color: #8a586b;
+    cursor: pointer;
+}
+.conectate{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 40px;
+}
+.conectate img{
+    width: 70%;
+
+}
+.fuller{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.blanco{
+    width: 50%;
+    height: 200PX;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    color: white;
+    padding: 30px;
+}
+.blanco img{
+    width: 200px;
+    height: 200px;
+    margin-top: -50px;
+    margin-right: 40px;
+}
+.blanco p{
+    width: 100%;
+   padding-top: -7px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.blanco p b{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media (min-width:1201px) and (max-width : 1399px){
+    .menudenav{
+        font-size: 14.5px;
+    }
+    .buscador{
+        margin-right: 20PX;
+    }
+    .buscador p {
+        margin-left: 13px;
+        margin-top: -1px;
+    }
+    .imagenes img{
+        width: 104%;
+        height: 550px;
+    }
+    .imagen2{
+        width: 104%;
+        height: 600px;
+    }
+    .imagen3{
+        width: 104%;
+        height: 600px;
+    }
+    .palabras{
+        width: 37%;
+        font-size: 16.5px;
+    }
+    .container2{
+        width: 100%;
+        margin-left: 30px;
+    }
+    .box1{
+        width: 25%;
+        height: 510px;
+    }
+    .box1 img{
+        height: 340px;
+    }
+    .vegano{
+        margin-left: 4px;
+    }
+    .conectate{
+        width: 104%;
+        height: 180px;
+    }
+    .fuller{
+        width: 104%;
+        height: 150px;
+    }
+    .blanco{
+        height: 150px;
+    }
+}
+@media (min-width:1024px) and (max-width:1200px){
+    .logo img{
+        width: 130px;
+        height: 65px;
+    }
+    .menudenav{
+        font-size: 12.8px;
+    }
+    .buscador{
+        margin-right: 23PX;
+    }
+    .buscador p {
+        margin-left: 13px;
+        margin-top: -1px;
+        font-size: 11.5px;
+    }
+    .imagenes img{
+        width: 104%;
+        height: 510px;
+    }
+    .imagen2{
+        width: 104%;
+        height: 580px;
+    }
+    .imagen3{
+        width: 104%;
+        height: 580px;
+    }
+    .palabras{
+        width: 37%;
+        font-size: 15.5px;
+    }
+    .titulo{
+        margin-right: 100px;
+    }
+    .titulo p{
+        font-size: 27px;
+    }
+    .boton button{
+        font-size:20px;
+    }
+    .container2{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .box1{
+        width: 25%;
+        height: 450px;
+    }
+    .box1 img{
+        height: 300px;
+    }
+    .letrabox1{
+        font-size: 16px;
+       
+    }
+    .letrapeque{
+        font-size: 13px;
+    }
+    .carrito button{
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 15px;
+    }
+    .vegano{
+        margin-left: 0px;
+    }
+    .vegano img{
+        width: 100px;
+        height: 100px;
+    }
+    .conectate{
+        width: 104%;
+        height: 170px;
+    }
+    .fuller{
+        width: 104%;
+        height: 120px;
+    }
+    .blanco{
+        height: 120px;
+    }
+    .blanco img{
+        width: 180px;
+        height: 120px;
+        margin-top: 5px;
+        margin-right: 20px;
+    }
+}
+@media (min-width:768px) and (max-width:1023px){
+    .marcas{
+        font-size: 15px;
+        height: 35px;
+    }
+    .kylieskin{
+        height: 35px;
+    }
+    .kyliebaby{
+        height: 35px;
+    }
+    .logo img{
+        margin-left: 20px;
+        width: 100px;
+        height: 55px;
+    }
+    .encabezado{
+        width: 100%;
+    }
+    .menudenav{
+        width: 70%;
+        font-size: 10.5px;
+        padding-left: 30px;
+    }
+    .buscador{
+        margin-top: 40px;
+        margin-right: 12PX;
+        width: 19%;
+        height: 30px;
+    }
+    .buscador img{
+        height: 15px;
+        width: 15px;
+    }
+    .buscador p {
+        margin-left: 13px;
+        margin-top: -1px;
+        font-size: 8px;
+    }
+    .imagenes img{
+        width: 112%;
+        height: 370px;
+    }
+    .imagen2{
+        width: 112%;
+        height: 430px;
+    }
+    .imagen3{
+        width: 112%;
+        height: 430px;
+    }
+    .titulo{
+        margin-right: 100px;
+    }
+    .titulo p{
+        font-size: 25px;
+    }
+    .letra p{
+        font-size: 18px;
+    }
+    .boton button{
+        margin-top: 13px;
+        font-size:18px;
+    }
+    .palabras{
+        width: 45%;
+        font-size: 15px;
+    }
+    .botoncitos{
+        margin-left: 50px;
+    }
+    .container2{
+        width: 110%;
+        margin-left: -20px;
+    }
+    .box1{
+        width: 25%;
+        height: 380px;
+    }
+    .box1 img{
+        height: 250px;
+    }
+    .letrabox1{
+        font-size: 14px;
+       
+    }
+    .letrapeque{
+        font-size: 11px;
+    }
+    .carrito button{
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 14px;
+    }
+    .vegano{
+        margin-left: 2px;
+    }
+    .vegano img{
+        width: 90px;
+        height: 90px;
+    }
+    .conectate{
+        width: 112%;
+        height: 160px;
+    }
+    .fuller{
+        width: 112%;
+        height: 100px;
+    }
+    .blanco{
+        height: 100px;
+    }
+    .blanco img{
+        width: 160px;
+        height: 90px;
+        margin-top: 5px;
+        margin-right: 20px;
+    }
+    .blanco p b{
+        font-size: 18px; 
+     }
+    .blanco p{
+       font-size: 16px; 
+    }
+}
+@media (min-width:480px) and (max-width:767px){
+    
+    .marcas{
+        font-size: 12px;
+        height: 34px;
+    }
+    .kylieskin{
+        height: 34px;
+    }
+    .kyliebaby{
+        height: 34px;
+    }
+    .logo{
+        height: 90px;
+    }
+    .logo img{
+        margin-left: 30px;
+        width: 90px;
+        height: 50px;
+    }
+    .encabezado{
+        width: 100%;
+        height: 90px;
+    }
+    .menudenav{
+        width: 70%;
+        font-size: 8.5px;
+        padding-left: 40px;
+    }
+    .menudenav ul li{
+        padding-right: 2px;
+    }
+    .buscador{
+        margin-top: 40px;
+        margin-right: 10PX;
+        width: 29%;
+        height: 30px;
+    }
+    .buscador img{
+        height: 15px;
+        width: 15px;
+    }
+    .buscador p {
+        margin-left: 13px;
+        margin-top: -1px;
+        font-size: 8px;
+    }
+    .imagenes img{
+        margin-top: 120px;
+        width: 140%;
+        height: 290px;
+    }
+    .imagen2{
+        width: 140%;
+        height: 300px;
+    }
+    .imagen3{
+        width: 140%;
+        height: 300px;
+    }
+    .titulo{
+        margin-right: 100px;
+    }
+    .titulo p{
+        font-size: 17px;
+    }
+    .letra p{
+        font-size: 14px;
+    }
+    .boton button{
+        margin-top: 13px;
+        font-size:13px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .palabras{
+        width: 42%;
+        font-size: 11px;
+    }
+    .botoncitos{
+        margin-left: 30px;
+    }
+    .container2{
+        width: 140%;
+        margin-left: -37px;
+    }
+    .box1{
+        width: 23%;
+        height: 270px;
+        margin-left: 60px;
+    }
+    .box1 img{
+        height: 170px;
+    }
+    .letrabox1{
+        font-size: 10px;
+       
+    }
+    .letrapeque{
+        font-size: 9px;
+    }
+    .carrito button{
+        padding: 7px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 9px;
+    }
+    .piel{
+        font-size: 20px;
+        margin-left: 70px;
+    }
+    .cajadevegano{
+        margin-left: 60px;
+    }
+    .vegano{
+        margin-left: 1px;
+    }
+    .vegano img{
+        width: 70px;
+        height: 70px;
+    }
+    .conectate{
+        width: 140%;
+        height: 120px;
+        font-size: 20px;
+    }
+    .fuller{
+        width: 140%;
+        height: 100px;
+    }
+    .blanco{
+        height: 80px;
+    }
+    .blanco img{
+        width: 115px;
+        height: 70px;
+        margin-top: 5px;
+        margin-right: 20px;
+    }
+    .blanco p b{
+        font-size: 15px; 
+     }
+    .blanco p{
+       font-size: 12px; 
+    }
+}
+@media (min-width:320px) and (max-width:479px){
+    
+    .marcas{
+        font-size: 9px;
+        height: 32px;
+    }
+    .kylie{
+        font-size: 12px;
+    }
+    .kylieskin{
+        height: 32px;
+    }
+    .kyliebaby{
+        height: 32px;
+    }
+    .logo img{
+        margin-left: 30px;
+        width: 70px;
+        height: 30px;
+    }
+    .encabezado{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .buscador{
+        display: none;
+    }
+    .menu{
+        width: 80%;
+       display:flex;
+       justify-content:flex-end;
+       margin-right: 30px;
+       align-items: center;
+   }
+   .menu img{
+       width: 30px;
+       height: 30px;
+   }
+   .menudenav{
+       width: 700%;
+       height: 200px;
+       margin-left: 10px;
+       margin-top: 100px;
+       background-color: white;
+       font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        animation: entrada 1s ease 0s 1 normal forwards;
+}
+.menudenav ul{
+    flex-direction: column;
+}
+.menudenav ul li{
+    margin-top: 10px;
+    border-top: 1px solid gray;
+    color: #8a586b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menudenav ul li:hover{
+    color: gray ;
+}
+.btn-visible{
+    animation: salida 1s ease 0s 1 normal forwards;
+
+}
+.imagenes img{
+        margin-top: 120px;
+        width: 135%;
+        height: 215px;
+    }
+    .imagen2{
+        width: 135%;
+        height: 220px;
+    }
+    .imagen3{
+        width: 135%;
+        height: 230px;
+    }
+    .titulo{
+        margin-right: 0px;
+    }
+    .titulo p{
+        font-size: 12px;
+    }
+    .letra p{
+        font-size: 10px;
+    }
+    .boton button{
+        margin-top: 13px;
+        margin-left: 10px;
+        font-size:10px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+    .palabras{
+        width: 42%;
+        font-size: 13px;
+    }
+    .botoncitos{
+        margin-left: 40px;
+    }
+ 
+    .container2{
+        width: 100%;
+        height: 470px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 50px;
+    }
+    .box1{
+        width: 40%;
+        height: 220px;
+        margin-left: 30px;
+    }
+    .box1 img{
+        height: 130px;
+    }
+    .letrabox1{
+        font-size: 8px;
+       
+    }
+    .letrapeque{
+        font-size: 7px;
+    }
+    .carrito button{
+        padding: 7px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 7px;
+    }
+    .piel{
+        font-size: 15px;
+        margin-left: 70px;
+    }
+    .cajadevegano{
+        margin-left: 60px;
+    }
+    .vegano{
+        margin-left: 1px;
+    }
+    .vegano p{
+        font-size: 15px;
+    }
+    .vegano img{
+        width: 70px;
+        height: 70px;
+    }
+    .conectate{
+        width: 135%;
+        height: 120px;
+        font-size: 15px;
+    }
+    .fuller{
+        width: 135%;
+        height: 40px;
+    }
+    .blanco{
+        height: 40px;
+        margin-top: -40px;
+    }
+    .blanco img{
+        margin-top: -10px;
+        width: 90px;
+        height: 60px;
+        margin-right: 20px;
+    }
+    .blanco p b{
+        font-size: 12px;
+        margin-top: 10px; 
+     }
+    .blanco p{
+        margin-top: -1px;
+       font-size: 9px; 
+    }
+}
+@media screen and (max-width:319px){
+    
+    .marcas{
+        font-size: 7.5px;
+        height: 29px;
+    }
+    .kylie{
+        font-size: 9px;
+    }
+    .kylieskin{
+        height: 29px;
+    }
+    .kyliebaby{
+        height: 29px;
+    }
+    .logo img{
+        margin-left: 50px;
+        width: 90px;
+        height: 40px;
+    }
+    .encabezado{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .buscador{
+        display: none;
+    }
+    .menu{
+        width: 80%;
+       display:flex;
+       justify-content:flex-end;
+       margin-right: 30px;
+       align-items: center;
+   }
+   .menu img{
+       width: 30px;
+       height: 30px;
+   }
+   .menudenav{
+       width: 700%;
+       height: 200px;
+       margin-left: 10px;
+       margin-top: 100px;
+       background-color: white;
+       font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        animation: entrada 1s ease 0s 1 normal forwards;
+}
+.menudenav ul{
+    flex-direction: column;
+}
+.menudenav ul li{
+    margin-top: 10px;
+    border-top: 1px solid gray;
+    color: #8a586b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menudenav ul li:hover{
+    color: gray ;
+}
+.btn-visible{
+    animation: salida 1s ease 0s 1 normal forwards;
+
+}
+.imagenes img{
+        margin-top: 110px;
+        width: 135%;
+        height: 190px;
+    }
+    .imagen2{
+        width: 135%;
+        height: 180px;
+    }
+    .imagen3{
+        width: 135%;
+        height: 180px;
+    }
+    .titulo{
+        margin-right: 0px;
+    }
+    .titulo p{
+        font-size: 10px;
+    }
+    .letra p{
+        font-size: 8px;
+    }
+    .boton button{
+        margin-top: 13px;
+        margin-left: 10px;
+        font-size:8px;
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    
+    .palabras{
+        width: 42%;
+        font-size: 9px;
+    }
+    .botoncitos{
+        margin-left: 40px;
+    }
+    .container2{
+        width: 100%;
+        height: 870px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 50px;
+    }
+    .box1{
+        width: 70%;
+        height: 270px;
+        margin-left: 30px;
+    }
+    .box1 img{
+        height: 180px;
+    }
+    .letrabox1{
+        font-size: 8px;
+       
+    }
+    .letrapeque{
+        font-size: 7px;
+    }
+    .carrito button{
+        padding: 7px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 7px;
+    }
+    .piel{
+        font-size: 14px;
+        margin-left: 40px;
+    }
+    .cajadevegano{
+        margin-left: 60px;
+        height: 80px;
+    }
+    .vegano{
+        margin-left: -1px;
+    }
+    .vegano p{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .vegano img{
+        width: 40px;
+        height:40px;
+    }
+    .conectate{
+        width: 135%;
+        height: 120px;
+        font-size: 15px;
+    }
+    .fuller{
+        width: 135%;
+        height: 40px;
+    }
+    .blanco{
+        height: 40px;
+        margin-top: -40px;
+    }
+    .blanco img{
+        margin-top: -10px;
+        width: 90px;
+        height: 60px;
+        margin-right: 20px;
+    }
+    .blanco p b{
+        font-size: 12px;
+        margin-top: 10px; 
+     }
+    .blanco p{
+        margin-top: -1px;
+       font-size: 9px; 
+    }
+
+}
+@keyframes myAnim {
+    0% {
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+      transform: scale(1);
+    }
+  
+    100% {
+      box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+      transform: scale(1.1);
+    }
+  }
+  @keyframes entrada {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 0;
+      transform: translateY(-250px);
+    }
+  
+    38% {
+      animation-timing-function: ease-out;
+      opacity: 1;
+      transform: translateY(0);
+    }
+  
+    55% {
+      animation-timing-function: ease-in;
+      transform: translateY(-65px);
+    }
+  
+    72% {
+      animation-timing-function: ease-out;
+      transform: translateY(0);
+    }
+  
+    81% {
+      animation-timing-function: ease-in;
+      transform: translateY(-28px);
+    }
+  
+    90% {
+      animation-timing-function: ease-out;
+      transform: translateY(0);
+    }
+  
+    95% {
+      animation-timing-function: ease-in;
+      transform: translateY(-8px);
+    }
+  
+    100% {
+      animation-timing-function: ease-out;
+      transform: translateY(0);
+    }
+  }
+  @keyframes salida {
+    0% {
+      animation-timing-function: ease-out;
+      transform: translateY(0);
+
+    }
+  
+    5% {
+      animation-timing-function: ease-in;
+      transform: translateY(-30px);
+    }
+  
+    15% {
+      animation-timing-function: ease-out;
+      transform: translateY(0);
+    }
+  
+    25% {
+      animation-timing-function: ease-in;
+      transform: translateY(-38px);
+    }
+  
+    38% {
+      animation-timing-function: ease-out;
+      transform: translateY(0);
+    }
+  
+    52% {
+      animation-timing-function: ease-in;
+      transform: translateY(-75px);
+    }
+  
+    70% {
+      animation-timing-function: ease-out;
+      transform: translateY(0);
+    }
+  
+    85% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+      transform: translateY(-250px);
+      visibility: hidden;
+    }
+  }
